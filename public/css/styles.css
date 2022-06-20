@@ -1,0 +1,60 @@
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #50C878;
+}
+
+/* Home Page logo */
+.logo{
+  width: 160px;
+  height: 150px;
+}
+
+.highlight{
+  color: #50C878;
+  font-weight:400 ;
+}
+
+/* header Button */
+.header{
+  /* border: 2px solid red; */
+  /* height: 10vh; */
+  display: flex;
+  justify-content: end;
+}
+
+.login{
+  padding: 1rem;
+}
+
+/* Overriding bootstrap properties */
+.btn-dark {
+  background-color: #50C878 !important;
+  border: none;
+}
+
+.footer{
+  /* border: 2px solid red; */
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #50C878;
+  color: white;
+  font-weight: 500;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
